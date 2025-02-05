@@ -1,0 +1,61 @@
+.sidebar{
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  top: 55px;
+  width: 85px;
+  z-index: 100;
+}
+.sidebar-icon-boxes{
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;      
+}
+.sidebar-icon-boxes:hover{
+  background-color: #eeeded;
+}
+.home{
+  width: 37px;
+  height: 27px;
+  padding-top: 30px;
+  padding-left: 1px;
+}
+.trending{
+  width: 35px;
+  height: 27px;
+  padding-top: 30px;
+  padding-left: 1px;
+}
+.shorts{
+  width: 27px;
+  height: 25px;
+  padding-top: 30px;
+  padding-left: 2px;
+}
+.subscribe{
+  width: 20px;
+  height: 25px;
+  padding-top: 30px;
+  padding-left: 0;
+}
+.music{
+  width: 25px;
+  height: 25px;
+  padding-top: 30px;
+  padding-left: 0;
+  padding-right: 2px;
+}
+.history{
+  width: 25px;
+  height: 25px;
+  padding-top: 20px;
+  padding-left: 0;
+  padding-right: 2px;
+}
+.sidebar-icon-boxes div{    
+  font-size: 12px;
+  margin-top: 3px;    
+}
